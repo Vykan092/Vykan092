@@ -21,7 +21,6 @@ const colors = [
   "tomato", "turquoise", "violet", "wheat", "white", "whitesmoke", "yellow", "yellowgreen"
 ];
 
-
 function getRandomColors(colorsArray, numberOfColors) {
   let randomColors = [];
   
@@ -33,7 +32,6 @@ function getRandomColors(colorsArray, numberOfColors) {
   return randomColors;
 }
 
-// 3) Função para escolher uma cor aleatória e imprimir no console
 function printRandomColor(colorsArray) {
   const randomIndex = Math.floor(Math.random() * colorsArray.length);
   console.log("Cor Aleatória Escolhida:", colorsArray[randomIndex]);
